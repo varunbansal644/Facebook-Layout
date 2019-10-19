@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 30px 0;
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
+  .menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 100px;
+    display: flex;
+  justify-content: center; 
+  }
+
+  .header-container {
+    color: rgb(1, 6, 12);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+  }
+ .forms
+ {
+  
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .a
+ {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .a2
+ {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .radiob
+ {
+    display: flex;
+    justify-content: space-around;
+ }
+ .Submit
+ {
+     width:100px;
+     height:40px;
+     background-color:green ;
+   
+     
+ }
