@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .menu-container {
   color: #fff;
   background-color: #5995DA;  /* Blue */
@@ -14,7 +13,6 @@
 .logo{
   align-content: flex-start;
 }
-
 .menu {
   border: 1px solid #fff;  /* For debugging */
   width: 900px;
@@ -26,8 +24,7 @@
     background-color: #D6E9FE;
     display: flex;
     justify-content: center;
-  }
-  
+}
   .header {
     width: 900px;
     height: 600px;
@@ -39,7 +36,6 @@
     display: flex;
     justify-content: center;
   }
-  
   .photo-grid {
     width: 900px;
     flex-wrap: wrap;
@@ -47,14 +43,9 @@
     flex-direction: row;
   align-items: center;
     justify-content: center;
-  }
-  
+  } 
   .photo-grid-item {
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
-  }
- .chat, .subscribe {
-    align-self: stretch;
-    margin-bottom: 20px;
   }
