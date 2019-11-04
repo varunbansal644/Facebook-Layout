@@ -1,70 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .menu-container {
-    color: #fff;
-    background-color: #5995DA;  /* Blue */
-    padding: 30px 0;
-    display: flex;
-    justify-content: flex-end; 
-  }
-  
-  .menu {
-    border: 1px solid #fff;  /* For debugging */
-    width: 100px;
-    display: flex;
-  justify-content: center; 
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: #D6E9FE;
+  color: #fff;
+  background-color:#4267B2;  /* Blue */
+  padding: 30px 0;
+}
+.menu {
+  width: 1s00px;
+  display: flex;
+justify-content: space-between; 
+}
+.header-container {
+  color: rgb(1, 6, 12);
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+.login
+{
+  width: 60px;
+  height:20px;
+  background-color: lightblue;
+}
+.header {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+.forms
+{
 
-  .header-container {
-    color: rgb(1, 6, 12);
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header {
-    width: 900px;
-    height: 900px;
-    display: flex;
-    justify-content: center;
-  }
- .forms
- {
-  
-    display: flex;
-    justify-content: space-between;
-    
- }
- .a
- {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    
- }
- .a2
- {
-    width: 600px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    
- }
- .radiob
- {
-    display: flex;
-    justify-content: space-around;
- }
- .Submit
- {
-     width:100px;
-     height:40px;
-     background-color:green ;
-   
-     
- }
+  display: flex;
+  justify-content: space-between;
+}
+.a
+{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between; 
+}
+.a2
+{
+  width: 500px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.a3
+{ 
+   width: 40px;
+  height: 40px;
+padding-right:200px;
+display: flex;
+  justify-content: center;
+}
+.radiob
+{
+  display: flex;
+  justify-content:space-around;
+}
+.Submit
+{
+   width:100px;
+   height:40px;
+   background-color:green ;  
+}
+.pass
+{
+ padding-left:30px;
+ padding-right:30px;
+}
+.menu-container h1{
+   font-size: 35px;
+}
